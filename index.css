@@ -1,0 +1,540 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+/* Header Navbar */
+
+.logo1{
+    width: 73px;
+    height: 71px;
+}
+
+.logo2{
+    width: 42px;
+    height: 40px;
+}
+
+.logo3{
+    width: 36px;
+    height: 34px;
+}
+
+.navbar-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 0px 55px;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+}
+
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+.navbar-logo2{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.navbar-link{
+    display: flex;
+    gap: 40px;
+}
+
+.navbar-link ::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: black;
+    display: block;
+    transition: 0.2s;
+}
+
+.navbar-link a:hover::after{
+    width: 100%;
+}
+
+.link{
+    text-decoration-line: none;
+    color: black;
+}
+
+.link:hover{
+    color: #3A3030;
+}
+
+.navbar-input{
+    display: flex;
+    align-items: center ;
+    width: 250px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.navbar-input > input{
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    width: 230px;
+}
+
+.navbar-input > img{
+    width: 20px;
+    
+}
+
+.about{
+    display: flex;
+    align-items: center;
+}
+
+.find{
+    font-size: 60px;
+}
+
+.furnix{
+    width: 100%;
+    height: 650px;
+}
+
+.hero{
+    background-size: cover;
+    background-image: url("assets/toa-heftiba-FV3GConVSss-unsplash.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding-left: 55px;
+    text-shadow: 0px 2px 3px white;
+}
+
+/* main */
+
+.about{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.abt{
+    font-size: 32px;
+}
+
+.desc{
+    margin-top: 35px;
+}
+
+.desc1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 95px;
+}
+
+.desc2{
+    font-size: 27px;
+    color: #3A3030;
+}
+
+.descphotos{
+    width: 700px;
+    height: 400px;
+    background-color: blue;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.photos{
+    display: flex;
+}
+
+.photos1{
+    display: flex;
+}
+
+
+.ecatalogue{
+    background-color: rgb(231, 228, 228);
+    padding-bottom: 40px;
+}
+
+.ecat{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 0px 350px;
+    /* gap: 5px; */
+}
+
+.cards{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.cards:hover{
+    background-color: gray;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cards2{
+    display: flex;
+    justify-content: center;
+    /* padding: 65px 0px; */
+    align-items: center;
+    padding: 40% 0px;
+}
+
+.okeedeh{
+    text-decoration: none;
+    color: black;
+}
+
+.cards2:hover{
+    color: white;
+}
+
+.ecata{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ecat{
+    font-size: 32px;
+}
+
+.prices{
+    color: brown;
+}
+
+.furnitures{
+    display: flex;
+}
+
+.gambar{
+    width: 210px;
+    height: 210px;
+    border-radius: 20px;
+}
+
+.gambars{
+    width: 20px;
+    height: 20px;
+}
+
+.logooo{
+    width: 70px;
+    height: 70px;
+}
+
+.apa{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.tulisan{
+    font-size: 25px;
+}
+
+.view{
+    width: 160px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 228, 228);
+    margin-top: 40px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.view:hover{
+    background-color: black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.views{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.views:hover{
+    color: white;
+}
+
+/* .panah{
+    width: 20px;
+    height: 20px;
+} */
+
+/* .mix{
+    display: flex;
+} */
+
+.contact{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.sip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hubungi{
+    font-size: 32px;
+}
+
+.oke{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 10px;
+}
+
+.pesan{
+    display: flex;
+    align-items: flex-start;
+    /* align-items: center;
+    justify-content: space-between; */
+    width: 1017px;
+    height: 200px;
+    background-color: rgb(231, 228, 228);
+}
+
+.input{
+    width: 500px;
+    height: 60px;
+    background-color: rgb(231, 228, 228);
+    margin-bottom: 10px;
+}
+
+textarea{
+    background-color: rgb(231, 228, 228);
+}
+/* .pesan2{
+    /* width: 1017px;
+    height: 200px;
+    background-color: rgb(231, 228, 228); */
+ */
+
+.send{
+    /* display: flex;
+    justify-content: flex-start; */
+    margin-left: 247px;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    background-color: #311A70;
+    border-radius: 10px;
+}
+
+
+
+.sent{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.sent:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.storeloc{
+    background-color: rgb(231, 228, 228);
+}
+
+.loc2{
+    font-size: 32px;
+    padding-top: 40px;
+}
+
+.loc1{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.nama1{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.storeloc{
+    padding-bottom: 70px;
+}
+.select-input{
+    width: 500px;
+    height: 55px;
+}
+
+.option{
+    width: 142.5px;
+    height: 60px;
+}
+
+.garis{
+    margin: 0px 50px;
+    width: auto;
+    height: 5px;
+    background-color: black;
+}
+
+.pics{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+.picture{
+    width: 40px;
+    height: 40px;
+}
+
+.picture1{
+    width: 50px;
+    height: 50px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 90px;
+    margin-top: 30px;
+}
+
+.okaydeh{
+    font-size: 23px;
+    color: #3A3030;
+}
+
+.sipsip{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.subs{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(231, 228, 228);
+}
+
+.subs2{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.sipdeh{
+    margin-top: 30px;
+}
+
+/* bedroom */
+
+.home{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.h{
+    font-size: 15px;
+    color: black;
+}
+.home:hover{
+    color: gray;
+}
+
+.homee{
+    margin-left: 40px;
+    margin-top: 25px;
+    transform: translateY(50px);
+    display: flex;
+}
+
+.segiempat{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+    margin-top: 25px;
+    padding-top: 50px;
+}
+.segi-apa{
+    border: 2px solid black;
+    background-color: white;
+    width: 305px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.segi-lagi{
+    border: 2px solid black;
+    background-color: white;
+    width: 305px;
+    height: 310px;
+    border-radius: 10px;
+}
+
+.lemari{
+    width: 290px;
+    height: 290px;
+}
+
+.bed{
+    width: 250px;
+    height: 250px;
+}
+
+.duit{
+    color: red;
+}
+
+.coret{
+    padding-left: 10px;
+}
+
+.kosong{
+    width: auto;
+    height: 300px;
+}
